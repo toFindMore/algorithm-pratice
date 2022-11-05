@@ -44,3 +44,19 @@ std::mt19937_64 gen(gen_seed);
 #define uset unordered_set
 #define max_que priority_queue<int, vector<int>, less<int>>
 #define min_que priority_queue<int, vector<int>, greater<int>>
+
+int a, b;
+
+void solve() {
+    
+}
+
+#define LOCAL
+int main() {
+#ifdef LOCAL
+    // freopen("input.txt", "rt", stdin);
+    // freopen("output.txt", "wt", stdout);
+#endif
+    solve();
+    return 0;
+}
